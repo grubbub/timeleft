@@ -34,7 +34,7 @@ const seconds = Math.floor(diff / 1000);
 
 function updateCountdown() {
   const { hours, minutes, seconds } = getTimeUntilTarget();
-  document.getElementById("countdown").innerHTML = `Time Left Today: ${hours} hours, ${minutes} minutes, and ${seconds} seconds to go.`;
+  document.getElementById("countdown").innerHTML = `Time: ${hours} hours, ${minutes} minutes, and ${seconds} seconds to go.`;
 }
 
 // Update the countdown every second
