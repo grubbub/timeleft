@@ -10,6 +10,11 @@ body {
     color: #008080; /* teal */
   }
 
+  h2 {
+    text-align: center;
+    color: #008080; /*teal*/
+  }
+
   p {
     text-align: center;
     color: #008080; /* teal */
