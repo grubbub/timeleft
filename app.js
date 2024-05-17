@@ -1,5 +1,5 @@
 // Target time (in 24-hour format, e.g., "17:30")
-const targetTime = "16:00";
+const targetTime = "15:45";
 
 function getTimeUntilTarget() {
   // Get current time
