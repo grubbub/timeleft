@@ -56,4 +56,15 @@ body {
     margin-top: 20px;
     color: #008080; /* teal */
   }
+
+  .quote {
+    font-style: italic; /* Italicized text for emphasis */
+    font-family: 'Georgia', serif; /* A serif font for a more traditional look */
+    background-color: #e6f7ff; /* Light blue background */
+    border-left: 5px solid #008080; /* Teal-colored left border */
+    padding: 10px; /* Padding inside the box */
+    margin: 20px auto; /* Centered with space around it */
+    max-width: 600px; /* Limit the width for better readability */
+    color: #005f5f; /* Darker teal text color */
+}
   

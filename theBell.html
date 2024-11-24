@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Countdown</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>The Bell ® Game</h1>
+<div id="countdown"></div>
+<script src="app.js"></script>
+<h2>Fancy a jump scare? Or 10?</h2>
+<h3>The Rules</h3>
+<p class="quote">The game is simple. Open <a href="https://www.youtube.com/watch?v=Of9yvKINITg">The Bell®</a> in a new tab. Pin the tab. Turn the system volume all the way up and the video volume all the way up. Turn alert volumes or other application volume to not full volume. Navigate away from The Bell®. Work.</p>
+
+<style>
+    /* Existing button styles */
+    button {
+        padding: 5px 10px;
+        background-color: #98fb98; /* pale green */
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #7cfc00; /* lawn green */
+    }
+
+    /* Centering styles for button and video container */
+    .centered {
+        display: flex;
+        flex-direction: column; /* Stack vertically */
+        align-items: center; /* Center horizontally */
+        margin-top: 20px;
+    }
+
+    /* Initially hide the video container */
+    #videoContainer {
+        display: none;
+    }
+</style>
+</head>
+<body>
+<div class="centered">
+    <button id="showVideoButton">JUST DON'T</button>
+    <div id="videoContainer">
+        <video width="600" controls>
+            <source src="./src/photos/busey.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+
+<script>
+    // JavaScript to toggle the visibility of the video
+    const showVideoButton = document.getElementById('showVideoButton');
+    const videoContainer = document.getElementById('videoContainer');
+
+    showVideoButton.addEventListener('click', () => {
+        // Show the video and hide the button
+        videoContainer.style.display = 'block';
+        showVideoButton.style.display = 'none';
+    });
+</script>
+
+<br>
+<p><a href="https://github.com/grubbub/timeleft">Dis for me.</a></p>
+
+</body>
+</html>
