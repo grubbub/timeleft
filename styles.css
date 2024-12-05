@@ -26,6 +26,23 @@ body {
     color: #008080; /* teal */
   }
 
+  ul {
+    list-style-position: inside; /* Ensures bullets align with the text */
+    margin: 0 auto; /* Centers the list container */
+    padding: 0; /* Removes default padding */
+    color: #008080; /* Teal color for text */
+    font-family: Arial, sans-serif; /* Keeps the font consistent */
+    max-width: 600px; /* Optional: Limit the width for better alignment */
+  }
+  
+  li {
+    color: #008080; /* Teal color for list items */
+    font-family: Arial, sans-serif; /* Keeps the font consistent */
+    text-align: left; /* Aligns text within each list item */
+    margin-left: 20px; /* Adds indentation for readability */
+  }
+  
+
   label {
     display: block;
     margin-bottom: 10px;
