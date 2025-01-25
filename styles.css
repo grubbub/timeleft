@@ -1,87 +1,112 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background-color: #f0f8ff; /* light blue */
-  }
-  
-  h1 {
-    text-align: center;
-    color: #008080; /* teal */
-  }
-
-  h2 {
-    text-align: center;
-    color: #008080; /*teal*/
-  }
-
-  h3 {
-    text-align: center;
-    color: #008080; /*teal*/
-  }
-
-
-  p {
-    text-align: center;
-    color: #008080; /* teal */
-  }
-
-  ul {
-    list-style-position: inside; /* Ensures bullets align with the text */
-    margin: 0 auto; /* Centers the list container */
-    padding: 0; /* Removes default padding */
-    color: #008080; /* Teal color for text */
-    font-family: Arial, sans-serif; /* Keeps the font consistent */
-    max-width: 600px; /* Optional: Limit the width for better alignment */
-  }
-  
-  li {
-    color: #008080; /* Teal color for list items */
-    font-family: Arial, sans-serif; /* Keeps the font consistent */
-    text-align: left; /* Aligns text within each list item */
-    margin-left: 20px; /* Adds indentation for readability */
-  }
-  
-
-  label {
-    display: block;
-    margin-bottom: 10px;
-    color: #008080; /* teal */
-  }
-  
-  input[type="text"] {
-    width: 100px;
-    padding: 5px;
-    margin-bottom: 10px;
-  }
-  
-  button {
-    padding: 5px 10px;
-    background-color: #98fb98; /* pale green */
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #7cfc00; /* lawn green */
-  }
-  
-  #countdown {
-    font-size: 1.5rem;
-    text-align: center;
-    margin-top: 20px;
-    color: #008080; /* teal */
-  }
-
-  .quote {
-    font-style: italic; /* Italicized text for emphasis */
-    font-family: 'Georgia', serif; /* A serif font for a more traditional look */
-    background-color: #e6f7ff; /* Light blue background */
-    border-left: 5px solid #008080; /* Teal-colored left border */
-    padding: 10px; /* Padding inside the box */
-    margin: 20px auto; /* Centered with space around it */
-    max-width: 600px; /* Limit the width for better readability */
-    color: #005f5f; /* Darker teal text color */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f8ff; /* light blue */
 }
-  
+
+h1 {
+  text-align: center;
+  color: #008080; /* teal */
+}
+
+h2 {
+  text-align: center;
+  color: #008080; /*teal*/
+}
+
+h3 {
+  text-align: center;
+  color: #008080; /*teal*/
+}
+
+
+p {
+  text-align: center;
+  color: #008080; /* teal */
+}
+
+ul {
+  list-style-position: inside; /* Ensures bullets align with the text */
+  margin: 0 auto; /* Centers the list container */
+  padding: 0; /* Removes default padding */
+  color: #008080; /* Teal color for text */
+  font-family: Arial, sans-serif; /* Keeps the font consistent */
+  max-width: 600px; /* Optional: Limit the width for better alignment */
+}
+
+li {
+  color: #008080; /* Teal color for list items */
+  font-family: Arial, sans-serif; /* Keeps the font consistent */
+  text-align: left; /* Aligns text within each list item */
+  margin-left: 20px; /* Adds indentation for readability */
+}
+
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #008080; /* teal */
+}
+
+input[type="text"] {
+  width: 100px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #98fb98; /* pale green */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #7cfc00; /* lawn green */
+}
+
+#countdown {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 20px;
+  color: #008080; /* teal */
+}
+
+.quote {
+  font-style: italic; /* Italicized text for emphasis */
+  font-family: 'Georgia', serif; /* A serif font for a more traditional look */
+  background-color: #e6f7ff; /* Light blue background */
+  border-left: 5px solid #008080; /* Teal-colored left border */
+  padding: 10px; /* Padding inside the box */
+  margin: 20px auto; /* Centered with space around it */
+  max-width: 600px; /* Limit the width for better readability */
+  color: #005f5f; /* Darker teal text color */
+}
+
+/* Progress Bar Styles */
+.progress-container {
+  width: 80%;
+  height: 20px;
+  background-color: #d3d3d3; /* light gray */
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.progress-bar {
+  width: 0%; /* Initial width */
+  height: 100%; /* Full height */
+  background-color: #008080; /* teal */
+  transition: width 0.5s ease-in-out; /* Smooth animation */
+  border-radius: 10px; /* Matches container's radius */
+}
+
+.milestones {
+ font-size: 1.5rem;
+ text-align: center;
+ margin-top: 20px;
+ color: #008080; /* teal */ 
+}
